@@ -1,0 +1,9 @@
+{
+    "name": "fastnorth/results-admin/tests",
+    "license": "proprietary",
+    "keywords": ["fastnorth", "results-admin", "tests"],
+    "require-dev": {
+        "codeception/codeception": "^2.3",
+        "flow/jsonpath": "^0.2"
+    }
+}

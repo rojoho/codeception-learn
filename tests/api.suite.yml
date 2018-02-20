@@ -1,0 +1,9 @@
+actor: ApiTester
+modules:
+    enabled:
+        - REST:
+            url: https://dev.raceroster.com
+            depends: PhpBrowser
+            part: Json
+        - \Helper\Api
+        - Asserts
